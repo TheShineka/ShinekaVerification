@@ -27,7 +27,7 @@ CaptchaDB = {}
 
 @CaptchaBot.on_message(filters.command("start"))
 async def start_handler(_, event: Message):
-    await event.reply_text("**ʜᴇʟʟᴏ sᴡᴇᴇᴛ ʜᴇᴀʀᴛ ɪ ᴀᴍ ʀᴏᴄᴋs ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴ ʙᴏᴛ ᴛᴏ ᴠᴇʀɪғʏ ᴛʜᴇ ɴᴇᴡ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀs ɪɴ ᴛᴇʟᴇɢʀᴀᴍ**👻\n\n**ɢɪᴠᴇ ᴍᴇ ʜᴇᴀʀᴛ** [ʟᴏᴠᴇ](https://t.me/Give_Me_Heart) [ᴊᴏɪɴ](t.me/Shayri_Music_Lovers) **ᴛʜᴀɴᴋs ғᴏʀ ᴜsɪɴɢ**.", disable_web_page_preview=True)
+    await event.reply_text("**ʜᴇʟʟᴏ sᴡᴇᴇᴛ ʜᴇᴀʀᴛ ɪ ᴀᴍ Shineka ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴ ʙᴏᴛ ᴛᴏ ᴠᴇʀɪғʏ ᴛʜᴇ ɴᴇᴡ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀs ɪɴ ᴛᴇʟᴇɢʀᴀᴍ**👻\n\n**ɢɪᴠᴇ ᴍᴇ ʜᴇᴀʀᴛ** [Shineka](https://t.me/DIPUID) [Support](t.me/Aviesupport) **ᴛʜᴀɴᴋs ғᴏʀ ᴜsɪɴɢ**.", disable_web_page_preview=True)
 
 
 @CaptchaBot.on_chat_member_updated()
