@@ -1,0 +1,53 @@
+{
+    "name": "Shineka Verification.",
+    "description": "A Telegram Bot for verifying new group members by Emojis Captcha. Made by @TheShineka.",
+    "logo": "https://te.legra.ph/file/91ad33ae6772ab324d2ac.jpg",
+    "keywords": [
+        "telegram",
+        "emoji",
+        "captcha",
+        "bot"
+    ],
+    "repository": "https://github.com/TheShineka/ShinekaVerification",
+    "website": "https://t.me/DIPUID",
+    "success_url": "https://t.me/Aviesupport",
+    "env": {
+        "API_ID": {
+            "description": "Get this value from my.telegram.org"
+        },
+        "API_HASH": {
+            "description": "Get this value from my.telegram.org"
+        },
+        "BOT_TOKEN": {
+            "description": "Get this from @BotFather"
+        },
+        "MONGODB_URI": {
+            "description": "MongoDB URI for Saving Chat Settings. Video Tutorial Here: https://www.youtube.com/watch?v=aXlF80Cn7iU"
+        },
+        "OWNER_ID": {
+            "description": "Your Telegram User ID for using Admin commands.",
+            "required": false
+        },
+        "SESSION_NAME": {
+            "description": "A Bot Session Name without Space.",
+            "required": false
+        },
+        "GROUP_CHAT_ID": {
+            "description": "Your Telegram Group ID where the bot will ask for verify by Captcha."
+        },
+        "CAPTCHA_API_TOKEN": {
+            "description": "Needs Captcha API Token to get Captcha. Get this from README.md !!"
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
