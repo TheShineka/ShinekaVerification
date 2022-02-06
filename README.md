@@ -10,7 +10,7 @@ A Telegram Bot which will ask new Group Members to verify them by solving an emo
 ### Host Locally:
 ```shell
 https://github.com/TheShineka/ShinekaVerification.git clone 
-cd Emoji-Captcha-Bot
+cd ShinekaVerification
 pip3 install -r requirements.txt
 # Setup Configurations in configs.py file!
 python3 main.py
